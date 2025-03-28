@@ -1,0 +1,39 @@
+[
+    {
+        "Name":"Full Stack Developer",
+        "Description":"Explore Full Stack Web Development courses that cover skills in front-end and back-end programming, databases, and server management.",
+        "Rating":4.8,
+        "images":"./images/courses/Fullstack.png"
+    },
+    {
+        "Name":"Selenium Automation Testing",
+        "Description":"Learn to automate the testing of your web applications across multiple environments and operating systems with different frameworks",
+        "Rating":4.8,
+        "images":"./images/courses/selenium.png"
+    },
+    {
+        "Name":"AWS",
+        "Description":"Learn Cloud fundamentals of design, implement, and manage with best practice.",
+        "Rating":4.8,
+        "images":"./images/courses/aws.png"
+    },
+    {
+        "Name":"Java",
+        "Description":"Explore the power of Java programming with basic and object oriented concepts with example and excercises",
+        "Rating":4.8,
+        "images":"./images/courses/java.jpg"
+    },
+    {
+        "Name":"SQL",
+        "Description":"Learn SQL courses with database management, query optimization, and data manipulation.",
+        "Rating":4.8,
+        "images":"./images/courses/sql.png"
+    },
+    {
+        "Name":"Python",
+        "Description":"Explore Python courses that cover skills in programming, Object oreiented concepts Development and automation .",
+        "Rating":4.8,
+        "images":"./images/courses/python.jpg"
+    }
+    
+]
