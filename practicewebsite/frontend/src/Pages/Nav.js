@@ -12,7 +12,7 @@ const Nav = () => {
 
     const handleSubmit=(e)=>{
         e.preventDefault()
-        axios.post('http://localhost:8000/api/v1/applicationpath',{name,email,password,phone})
+        axios.post('https://practicebackend-s7zj.onrender.com/applicationpath',{name,email,password,phone})
         .then((result)=>{
             console.log(result)
             toast.success("registered successfully")  
@@ -26,7 +26,7 @@ const Nav = () => {
     
     const handleSubmit1=(e)=>{
         e.preventDefault()
-        axios.post('http://localhost:8000/api/v1/login',{email:email1,password:password1})
+        axios.post('https://practicebackend-s7zj.onrender.com/login',{email:email1,password:password1})
         .then((result)=>{
             console.log(result)
             setValue(result.data)
