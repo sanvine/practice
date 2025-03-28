@@ -8,6 +8,7 @@ const Applicationpath=require('./routes/Applicationpath')
 const login=require('./routes/Login')
 const Connectdb = require('./Config/Connectdb')
 const cors = require('cors');
+const PORT=process.env.PORT||8000
 
 
 app.use(express.json());
@@ -20,6 +21,6 @@ app.use('/api/v1/',login)
 Connectdb()
 
 
-app.listen(process.env.PORT,()=>{
-    console.log(`server running on ${process.env.PORT} in ${process.env.NODE_ENV}`)
+app.listen(PORT,()=>{
+    console.log(`server running on ${PORT} in ${process.env.NODE_ENV}`)
 })
