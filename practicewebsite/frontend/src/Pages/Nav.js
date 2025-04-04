@@ -12,7 +12,7 @@ const Nav = () => {
 
     const handleSubmit=(e)=>{
         e.preventDefault()
-        axios.post('https://practicebackend-s7zj.onrender.com/applicationpath',{name,email,password,phone})
+        axios.post('https://codetech-ww6o.onrender.com/applicationpath',{name,email,password,phone})
         .then((result)=>{
             console.log(result)
             toast.success("registered successfully")  
